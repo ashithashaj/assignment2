@@ -9,6 +9,13 @@
   box-sizing: border-box;
   
 }
+html, body
+{
+    overflow-x: hidden;
+}
+body{
+    position: relative;
+}
 
 .bg-banner{
   background: url('/mainpic2.png');
@@ -127,8 +134,29 @@ justify-content: center;
 
 
 
+@media screen and (max-width: 540) {
+  .container2 {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+    text-align: center; /* Center align content */
+    padding: 20px; /* Adjust padding */
+    width: 100%;
+  } 
+  .block2 {
+    grid-template-columns: 1fr; /* Stack items in a single column */
+    text-align: center; /* Center align content */
+    padding: 20px; /* Adjust padding */
+    height: 1000px
+};
+.stat-box
+{
+width: 200px;
+}
+.bg-banner{
 
+  padding: 40px 80px;;
+}
 
+}
 
 
 

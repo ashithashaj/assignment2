@@ -4,7 +4,7 @@ export default function Footer() {
         <div className="bg-[#120b38] text-white  mt-8">
 
 
-            <div className=" flex justify-between text-sm  p-8">
+            <div className=" flex justify-between text-sm  p-8 flex-col md:flex-row ">
                 <div className="">
                     <h3 className="font-semibold text-xl" >About Us</h3>
                     <ul>
@@ -21,7 +21,7 @@ export default function Footer() {
                         <li><a href="#">Micro Finance</a></li>
                     </ul>
                 </div>
-                <div className="">
+                <div className="mt-10 md:mt-0">
                     <h3 className="font-semibold text-xl" >Investors</h3>
                     <ul>
                         <li><a href="#">Annual Reports</a></li>
@@ -82,7 +82,7 @@ export default function Footer() {
 
             </div>
             <hr />
-                <div className="flex justify-between p-4">
+                <div className="flex justify-between p-4 flex-col md:flex-row">
                     <p>© 2021 Yogakshemam Loans Ltd. All Rights Reserved</p>
                     <p>Privacy | Sitemap</p>
                 </div>

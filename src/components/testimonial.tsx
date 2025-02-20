@@ -3,7 +3,7 @@ export default function Testimonial() {
 
     return (
         <div className="container2">
-            <div className="w-2/3">
+            <div className="md:w-2/3 w-1/2">
                 <h1 className="heading2  text-3xl font-bold pb-2">Driving Financial Excellence: A
                     <br /> Record of Achievements</h1>
                 <p className="para" id="paragraph">Successfully diversified and managed a multi-million-dollar
